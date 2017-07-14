@@ -25,9 +25,21 @@
 			<li class="header__menu__item"><a href="#">Item</a></li>
 		</ul>
 	</header>
-
+	<!-- DARIO -->
+		<div id="dario" class="header__darioHide">
+		<a href="#" class="header__logo__dario"><img class="logo__dario"src="Gesa-logo-4.png" id="logoDario"></a>
+		<ul class="header__menu__dario animate">
+			<li class="header__menu__item"><a href="index.html">Home</a></li>
+			<li class="header__menu__item"><a href="single.html">Single</a></li>
+			<li class="header__menu__item"><a href="page.html">Page</a></li>
+			<li class="header__menu__item"><a href="#">Item</a></li>
+		</ul>
+		</div>
 <!-- COVER -->
+
 <section class="cover">
+
+
 	<div class="cover__filter"></div>
 	<div class="cover__caption">
 		<div class="cover__caption__copy">
@@ -109,6 +121,29 @@
 			e.preventDefault();
 		});
 	});
+	
+	//DARIO
+$(document).ready(function() {
+  var menu = $("#dario");
+  var logo = $("#logoDario")
+  var posizione = menu.position();
+  
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() >280+ posizione.top&&$( window ).width()>=751) {
+		menu.addClass("header__dario");
+		menu.removeClass("header__darioHide");
+		//
+		logo.fadeTo( "slow", 1 );
+
+    } else {
+		menu.removeClass("header__dario"); 
+		menu.addClass("header__darioHide");
+		logo.css({'opacity':'0'});
+		logo.stop(true,true);
+    }
+  });
+});
 </script>
 </body>
 </html>

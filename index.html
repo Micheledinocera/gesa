@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
 	<link rel="stylesheet" href="stile.css">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport"  content="width=device-width, initial-scale=1">
 </head>
 <body>
 
@@ -121,13 +121,13 @@
 			e.preventDefault();
 		});
 	});
-	
+
 	//DARIO
 $(document).ready(function() {
   var menu = $("#dario");
   var logo = $("#logoDario")
   var posizione = menu.position();
-  
+
 
   $(window).scroll(function() {
     if ($(window).scrollTop() >280+ posizione.top&&$( window ).width()>=751) {
@@ -137,7 +137,7 @@ $(document).ready(function() {
 		logo.fadeTo( "slow", 1 );
 
     } else {
-		menu.removeClass("header__dario"); 
+		menu.removeClass("header__dario");
 		menu.addClass("header__darioHide");
 		logo.css({'opacity':'0'});
 		logo.stop(true,true);

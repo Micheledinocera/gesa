@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>title</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+	<link rel="stylesheet" href="stile.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<!-- HEADER -->
+	<header class="header clearfix">
+		<a href="#" class="header__logo">Logo</a>
+		<a href="#" class="header__icon-bar">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+		<ul class="header__menu animate">
+			<li class="header__menu__item"><a href="index.html">Home</a></li>
+			<li class="header__menu__item"><a href="page1.html">Trasporto materiali e rifiuti</a></li>
+			<li class="header__menu__item"><a href="page2.html">Impianti ed edilizia</a></li>
+			<li class="header__menu__item"><a href="page3.html">Pitturazione e sabbiatura</a></li>
+			<li class="header__menu__item"><a href="page4.html">Chi siamo</a></li>
+		</ul>
+	</header>
+
+<!-- COVER -->
+<section class="cover cover--single">
+	<div class="cover__filter"></div>
+	<div class="cover__caption">
+		<div class="cover__caption__copy">
+			<h1>CHI SIAMO</h1>
+		</div>
+	</div>
+</section>
+
+<article class="single">
+	<div class="single__copy">
+		<h2 class="single__copy__title">Subtitle of the home page</h2>
+		<p class="single__copy__meta">10.07.2017 - ore 01:16 in <a href="#">News</a> by <a href="#">Corelith</a></p>
+		<p>G.E.S.A. S.r.l. nasce nel 2010 dalla ventennale esperienza maturata nel campo della gestione rifiuti
+pericolosi e non, del proprio direttore tecnico Geom. Pascucci Paolo, il quale gestisce ad oggi appalti con
+aziende e privati tra cui FINCANTIERI S.p.A., ENEL, SIELTE S.p.A., Enti pubblici, garantendo i più
+elevati standard di qualità, serietà, affidabilità e professionalità. Il compendio di servizi che offriamo
+include l’ esecuzione di lavori edili di diversa natura comprendenti la realizzazione di opere di ogni
+genere oltre che offrire progettazione, realizzazione, installazione e manutenzione di impianti, la
+realizzazione di carpenterie metal-meccaniche e navali, la fabbricazione e quindi poi vendita, fornitura e
+trasporto per terzi e non di qualsiasi prodotto dell’edilizia. Non meno importante la progettazione,
+realizzazione e gestione di impianti di depurazione, trasformazione e compostaggio di rifiuti, gestione di
+tutti i processi di lavorazione, stoccaggio e smaltimento dei rifiuti di qualsiasi genere: speciali, pericolosi
+e non con l’esecuzione di bonifiche ambientali di qualsiasi tipologia. Gesa dispone inoltre dei mezzi per
+la realizzazione e manutenzione di opere e impianti marittimi e l’esecuzione di pitturazioni e sabbiature di
+qualsiasi genere in campo marittimo e industriale.
+La caratteristica che contraddistingue la nostra azienda è la qualità dell’organico altamente specializzato e
+l’impiego di prodotti all’avanguardia nel settore, nonché la piena conoscenza della normativa e di tutti i
+regolamenti che necessitano.</p>
+	</div>
+</article>
+
+<!-- CARDS -->
+<section class="cards clearfix">
+	<!-- card 1 -->
+	<div class="card">
+		<img class="card__image" src="https://source.unsplash.com/collection/190727/400x260" alt="nature">
+		<div class="card__copy">
+			<h3>Title card</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+		</div>
+	</div>
+	<!-- card 2 -->
+	<div class="card">
+		<img class="card__image" src="https://source.unsplash.com/collection/190728/400x260" alt="nature">
+		<div class="card__copy">
+			<h3>Title card</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+		</div>
+	</div>
+	<!-- card 3 -->
+	<div class="card">
+		<img class="card__image" src="https://source.unsplash.com/collection/190726/400x260" alt="nature">
+		<div class="card__copy">
+			<h3>Title card</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+		</div>
+	</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+	<p>Copyright - Corelith srl</p>
+	<p>Powered by: Varano's kingdom</p>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$(".header__icon-bar").click(function(e) {
+			$(".header__menu").toggleClass("is-open");
+			e.preventDefault();
+		});
+	});
+</script>
+</body>
+</html>

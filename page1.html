@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>title</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+	<link rel="stylesheet" href="stile.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<!-- HEADER -->
+	<header class="header clearfix">
+		<a href="#" class="header__logo">Logo</a>
+		<a href="#" class="header__icon-bar">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+		<ul class="header__menu animate">
+			<li class="header__menu__item"><a href="index.html">Home</a></li>
+			<li class="header__menu__item"><a href="page1.html">Trasporto materiali e rifiuti</a></li>
+			<li class="header__menu__item"><a href="page2.html">Impianti ed edilizia</a></li>
+			<li class="header__menu__item"><a href="page3.html">Pitturazione e sabbiatura</a></li>
+			<li class="header__menu__item"><a href="page4.html">Chi siamo</a></li>
+		</ul>
+	</header>
+
+<!-- COVER -->
+<section class="cover cover--single">
+	<div class="cover__filter"></div>
+	<div class="cover__caption">
+		<div class="cover__caption__copy">
+			<h1>TRASPORTO MATERIALI E RIFIUTI</h1>
+		</div>
+	</div>
+</section>
+
+<article class="single">
+	<div class="single__copy">
+		<h2 class="single__copy__title">Subtitle of the home page</h2>
+		<p class="single__copy__meta">10.07.2017 - ore 01:16 in <a href="#">News</a> by <a href="#">Corelith</a></p>
+		<p>TRASPORTO MATERIALI E RIFIUTI
+		Gesa ha un impegno totale nella gestione e lavorazione dei rifiuti come la trasformazione, compostaggio,
+		trattamento, rigenerazione, recupero, innocuizzazione, discarica, smaltimento e stoccaggio. “IMG 2926”
+		Offriamo la completa assistenza e consulenza nell’ambito dei rifiuti realizzando bonifiche ambientali e
+		impianti di depurazione. “IMG 2925”
+		Ci occupiamo nel pieno rispetto delle normative e delle legislazioni del trasporto di materiali e merci di
+		qualsiasi tipologia: da recupero, speciali, pericolosi e non, disponendoci inoltre della loro
+		commercializzazione. “IMG 2929”</p>
+	</div>
+</article>
+
+<!-- CARDS -->
+<section class="cards clearfix">
+	<!-- card 1 -->
+	<div class="card">
+		<img class="card__image" src="https://source.unsplash.com/collection/190727/400x260" alt="nature">
+		<div class="card__copy">
+			<h3>Title card</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+		</div>
+	</div>
+	<!-- card 2 -->
+	<div class="card">
+		<img class="card__image" src="https://source.unsplash.com/collection/190728/400x260" alt="nature">
+		<div class="card__copy">
+			<h3>Title card</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+		</div>
+	</div>
+	<!-- card 3 -->
+	<div class="card">
+		<img class="card__image" src="https://source.unsplash.com/collection/190726/400x260" alt="nature">
+		<div class="card__copy">
+			<h3>Title card</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+		</div>
+	</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+	<p>Copyright - Corelith srl</p>
+	<p>Powered by: Varano's kingdom</p>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$(".header__icon-bar").click(function(e) {
+			$(".header__menu").toggleClass("is-open");
+			e.preventDefault();
+		});
+	});
+</script>
+</body>
+</html>

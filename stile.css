@@ -1,5 +1,6 @@
 html,body {height: 100%;}
-body {background: #eee;}
+body {background: #eee; font-family: helvetica;}
+a {text-decoration: none;}
 
 /*GENERAL*/
 .animate {
@@ -11,7 +12,7 @@ a {color: #16dd94;}
 a:hover {color: #1af3a4;}
 
 /*HEADER*/
-.logo {height: 50%; width: 50%;}
+.logo {height: 45%; width: 80%;}
 .header {background: #333;}
 .header__logo {color: #fff; float: left; display: block; padding: 20px;}
 /*DARIO*/
@@ -54,7 +55,7 @@ a:hover {color: #1af3a4;}
 /*BANNER*/
 .banner {background: #fff; height: 50%; margin-top: 40px}
 .banner__image {width: 30%; float: left; height: 100%;
-  background-image: url("https://source.unsplash.com/collection/190725/400x400");
+  background-image: image(C:\Users\color\Desktop\Project\gesa\resources\Gesa-logo-4.png);
   background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;

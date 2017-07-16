@@ -11,31 +11,33 @@
 <body>
 
 <!-- HEADER -->
-	<header class="header clearfix">
-		<a href="#" class="header__logo"><img class="logo"src="resources/Gesa-logo-4.png"></a>
-		<a href="#" class="header__icon-bar">
-			<span></span>
-			<span></span>
-			<span></span>
-		</a>
-		<ul class="header__menu animate">
-			<li class="header__menu__item"><a href="index.html">Home</a></li>
-			<li class="header__menu__item"><a href="page1.html">Trasporto materiali e rifiuti</a></li>
-			<li class="header__menu__item"><a href="page2.html">Impianti ed edilizia</a></li>
-			<li class="header__menu__item"><a href="page3.html">Pitturazione e sabbiatura</a></li>
-			<li class="header__menu__item"><a href="page4.html">Chi siamo</a></li>
-		</ul>
-	</header>
-	<!-- DARIO -->
-		<div id="dario" class="header__darioHide">
-		<a href="#" class="header__logo__dario"><img class="logo__dario"src="resources/Gesa-logo-4.png" id="logoDario"></a>
-		<ul class="header__menu__dario animate">
-			<li class="header__menu__item"><a href="index.html">Home</a></li>
-			<li class="header__menu__item"><a href="single.html">Single</a></li>
-			<li class="header__menu__item"><a href="page.html">Page</a></li>
-			<li class="header__menu__item"><a href="#">Item</a></li>
-		</ul>
-		</div>
+<header id="header" class="header clearfix">
+	<a href="#" class="header__logo"><img class="logo"src="resources/Gesa-logo-4.png"></a>
+	<a href="#" class="header__icon-bar">
+		<span></span>
+		<span></span>
+		<span></span>
+	</a>
+	<ul class="header__menu animate">
+		<li class="header__menu__item"><a href="index.html">Home</a></li>
+		<li class="header__menu__item"><a href="page1.html">Trasporto materiali e rifiuti</a></li>
+		<li class="header__menu__item"><a href="page2.html">Impianti ed edilizia</a></li>
+		<li class="header__menu__item"><a href="page3.html">Pitturazione e sabbiatura</a></li>
+		<li class="header__menu__item"><a href="page4.html">Chi siamo</a></li>
+	</ul>
+</header>
+<!-- DARIO -->
+<div id="dario" class="header__darioHide animate" >
+	<a href="#" class="header__logo__dario">
+		<img class="logo__dario"src="resources/Gesa-logo-4.png" id="logoDario">
+	</a>
+	<ul id="menuList" class="header__menu__dario animate">
+		<li class="header__menu__item"><a href="index.html">Home</a></li>
+		<li class="header__menu__item"><a href="single.html">Single</a></li>
+		<li class="header__menu__item"><a href="page.html">Page</a></li>
+		<li class="header__menu__item"><a href="#">Item</a></li>
+	</ul>
+</div>
 <!-- COVER -->
 
 <section class="cover">
@@ -55,13 +57,13 @@
 <!-- BANNER IMG SX -->
 <section class="banner clearfix">
 	<div class="banner__image"><img class="logo" src="resources/Gesa-logo-4.png"></div>
-		<div class="banner__copy">
-			<div class="banner__copy__text">
-				<h3>G.E.S.A. S.r.l.</h3>
-				<h4>Chi siamo</h4>
-				<p>G.E.S.A. S.r.l. nasce nel 2010 dalla ventennale esperienza maturata nel campo della gestione rifiuti pericolosi e non, del proprio direttore tecnico Geom. Pascucci Paolo, il quale gestisce ad oggi appalti con aziende e privati tra cui FINCANTIERI S.p.A., ENEL, SIELTE S.p.A., Enti pubblici, garantendo i più elevati standard di qualità, serietà, affidabilità e professionalità.</p>
-			</div>
+	<div class="banner__copy">
+		<div class="banner__copy__text">
+			<h3>G.E.S.A. S.r.l.</h3>
+			<h4>Chi siamo</h4>
+			<p>G.E.S.A. S.r.l. nasce nel 2010 dalla ventennale esperienza maturata nel campo della gestione rifiuti pericolosi e non, del proprio direttore tecnico Geom. Pascucci Paolo, il quale gestisce ad oggi appalti con aziende e privati tra cui FINCANTIERI S.p.A., ENEL, SIELTE S.p.A., Enti pubblici, garantendo i più elevati standard di qualità, serietà, affidabilità e professionalità.</p>
 		</div>
+	</div>
 </section>
 
 <p>"L'ambiente è il mondo dove l'uomo realizza i suoi progetti, il suo rispetto il nostro credo"</p>
@@ -104,12 +106,12 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="script/scriptDario.js"></script>
 <script>
-	$(document).ready(function() {
-		$(".header__icon-bar").click(function(e) {
-			$(".header__menu").toggleClass("is-open");
-			e.preventDefault();
-		});
-	});
+    $(document).ready(function() {
+        $(".header__icon-bar").click(function(e) {
+            $(".header__menu").toggleClass("is-open");
+            e.preventDefault();
+        });
+    });
     $(document).ready(menuShower());
 </script>
 </body>

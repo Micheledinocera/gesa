@@ -16,10 +16,10 @@ a:hover {color: #1af3a4;}
 .header {background: #333;}
 .header__logo {color: #fff; float: left; display: block; padding: 20px;}
 /*DARIO*/
-.header__logo__dario {color: #fff; float: left; display: block; padding-top: 5px;width:50%;}
+.header__logo__dario {color: #fff; float: left; display: block; padding-top: 5px;width:8%;}
 .logo__dario{height:45px; width:90px;}
 .header__dario{z-index:2000; height:58px;background-color:#333; position: fixed;top: 0px;width: 100%;width:100%;}
-.header__menu__dario{float: right; margin: 0; padding: 0; height: 0}
+.header__menu__dario{float: right; margin: 0; padding: 0;}
 .header__darioHide{height: 0px;}
 /*DARIO*/
 .header__menu {float: right; margin: 0; padding: 0;}

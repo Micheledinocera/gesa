@@ -16,22 +16,24 @@ function menuShower() {
             menu.addClass("animate");
             menuListMin.append(children);
 
-            menuListMin.addClass("isOpen");
             menu.addClass("header__dario");
             menu.removeClass("header__darioHide");
-            
+
             logo.fadeTo( "slow", 1 );
+            menuListMin.fadeTo( "slow", 1 );
 
         } else {
             menu.removeClass("animate");
             menuList.append(children);
 
-            menuListMin.removeClass("isOpen");
             menu.removeClass("header__dario");
             menu.addClass("header__darioHide");
 
             logo.css({'opacity':'0'});
             logo.stop(true,true);
+
+            menuListMin.css({'opacity':'0'});
+            menuListMin.stop(true,true);
         }
     });
 };

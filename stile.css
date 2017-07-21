@@ -12,9 +12,9 @@ a {color: #16dd94;}
 a:hover {color: #1af3a4;}
 
 /*HEADER*/
-.logo {height: 45%; width: 80%;}
+.logo {height:100%; width:100%;}
 .header {background: #333;}
-.header__logo {color: #fff; float: left; display: block; padding: 20px;}
+.header__logo {color: #fff; float: left; display: block; padding: 20px; width:30%}
 /*DARIO*/
 .header__logo__dario {color: #fff; float: left; display: block; padding-top: 5px;width:8%;}
 .logo__dario{height:45px; width:90px;}

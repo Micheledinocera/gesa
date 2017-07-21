@@ -11,7 +11,7 @@ function menuShower() {
     var children = menuList.children();
 
     $(window).scroll(function() {
-        if ($(window).scrollTop() >headerH*0.95 && $( window ).width()>=751) {
+        if ($(window).scrollTop() >headerH && $( window ).width()>=751) {
 
             menu.addClass("animate");
             menuListMin.append(children);

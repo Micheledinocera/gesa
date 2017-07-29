@@ -11,21 +11,7 @@
 <body>
 
 <!-- HEADER -->
-	<header class="header clearfix">
-		<a href="#" class="header__logo">Logo</a>
-		<a href="#" class="header__icon-bar">
-			<span></span>
-			<span></span>
-			<span></span>
-		</a>
-		<ul class="header__menu animate">
-			<li class="header__menu__item"><a href="index.html">Home</a></li>
-			<li class="header__menu__item"><a href="page1.html">Trasporto materiali e rifiuti</a></li>
-			<li class="header__menu__item"><a href="page2.html">Impianti ed edilizia</a></li>
-			<li class="header__menu__item"><a href="page3.html">Pitturazione e sabbiatura</a></li>
-			<li class="header__menu__item"><a href="page4.html">Chi siamo</a></li>
-		</ul>
-	</header>
+<div id="header_container"></div>
 
 <!-- COVER -->
 <section class="cover cover--single">
@@ -68,12 +54,15 @@ regolamenti che necessitano.</p>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
-	$(document).ready(function() {
-		$(".header__icon-bar").click(function(e) {
-			$(".header__menu").toggleClass("is-open");
-			e.preventDefault();
-		});
-	});
+    $(document).ready(function() {
+        $(".header__icon-bar").click(function(e) {
+            $(".header__menu").toggleClass("is-open");
+            e.preventDefault();
+        });
+
+        $('#header_container').load('header.html');
+    });
+    $(document).ready(menuShower());
 </script>
 </body>
 </html>

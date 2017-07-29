@@ -3,7 +3,8 @@
  */
 function menuShower() {
     var menu = $("#dario");
-    var logo = $("#logoDario")
+    var logo = $("#logoDario");
+    logo.css({'opacity':'0'});
     var posizione = menu.position();
     var headerH = $("#header").height();
     var menuListMin = $("#menuList_min");

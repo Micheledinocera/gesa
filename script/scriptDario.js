@@ -11,7 +11,7 @@ function menuShower() {
     var children = menuList.children();
 
     $(window).scroll(function() {
-        if ($(window).scrollTop() >headerH && $( window ).width()>=751) {
+        if ($(window).scrollTop() >headerH && $( window ).width()>=850) {
 
             menu.addClass("animate");
             menuListMin.append(children);
@@ -28,7 +28,7 @@ function menuShower() {
 
             menu.removeClass("header__dario");
             menu.addClass("header__darioHide");
-
+            menuListMin.children().css({'width':'auto'});
             logo.css({'opacity':'0'});
             logo.stop(true,true);
 

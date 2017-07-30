@@ -42,7 +42,7 @@ a:hover {color: #1af3a4;}
     opacity: 0.8;
     transition: background-image 0.5s ease;
 }
-.cover__filter {background: #000; width: 100%; height: 100%; position: absolute; z-index: 0; opacity: 0.5;}
+.cover__filter {background: #000; width: 100%; height: 100%; position: absolute; z-index: 0; opacity: 0.3;}
 .cover__caption {display: table; height: 100%; width: 100%; position: relative; z-index: 1; padding: 0 20px;}
 .cover__caption__copy {display: table-cell; vertical-align: middle; text-align: center; color: #fff;}
 #dots-container {margin-top:50px;}
@@ -87,8 +87,8 @@ a:hover {color: #1af3a4;}
 .banner__copy__text h3 {font-size: 36px; margin-bottom: 0;}
 .banner__copy__text h4 {font-size: 22px; margin: 5px 0;}
 
-.banner__autorizzazioni {border: 1px solid lime; background: #fff; height: 50%; margin-top: 40px;}
-.banner__image__autorizzazioni {border: 1px solid red; float: left; width: 200px; height: 200px; padding: 0px; margin;}
+.banner__autorizzazioni {border: 1px solid lime; background: #fff; height: auto; margin-top: 40px; padding: 10px; text-align: center;}
+.banner__image__autorizzazioni {border: 1px solid red; width: 180px; height: 180px; margin: 10px; display: inline-block;}
 
 /*FOOTER*/
 .footer {background: #333; padding: 30px; color: #fff; margin-top: 40px;}

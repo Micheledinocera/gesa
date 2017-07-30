@@ -29,10 +29,11 @@ function retrievePhotosFromDir(){
 
 function setPhotoByIndex(index){
     var photoContainer=$("#cover");
-    photoContainer.fadeTo("slow", 0.1,function(){
+
+    // photoContainer.fadeTo("slow", 0.1,function(){
         photoContainer.css("background-image",photos[index]);
-    });
-    photoContainer.fadeTo(1000, 0.6);
+    // });
+    // photoContainer.fadeTo(1000, 0.6);
     selectDotByIndex(index);
 }
 

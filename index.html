@@ -94,14 +94,12 @@
 <script>
 	var photos=[];
 	var currentPosition=0;
-    var sliderInterval;
 
     $(document).ready(function() {
         $(".header__icon-bar").click(function(e) {
             $(".header__menu").toggleClass("is-open");
             e.preventDefault();
         });
-//        menuShower();
         photos=startSlider();
         setPhotoByIndex(currentPosition);
         currentPosition++;

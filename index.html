@@ -83,10 +83,7 @@
 </section>
 
 <!-- FOOTER -->
-<footer class="footer">
-	<p>Copyright - Corelith srl</p>
-	<p>Powered by: Varano's kingdom</p>
-</footer>
+<div id="footer_container"></div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="script/scriptDario.js"></script>
@@ -106,6 +103,7 @@
         currentPosition=setSliderInterval(currentPosition);
 
         $('#header_container').load('header.html');
+        $('#footer_container').load('footer.html');
     });
 </script>
 </body>

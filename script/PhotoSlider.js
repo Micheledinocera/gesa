@@ -3,6 +3,7 @@
  */
 var sliderInterval;
 var photos=[];
+var labels=[];
 
 function startSlider() {
     var dots=$("#dots-container");
@@ -25,15 +26,19 @@ function retrievePhotosFromDir(){
     photos=photos.concat("url("+folder+"Sabbiatura.jpg");
     photos=photos.concat("url("+folder+"Impianti.jpg");
     photos=photos.concat("url("+folder+"Rifiuti.jpg");
+    retrieveLabels();
+}
+
+function retrieveLabels() {
+    labels=labels.concat("Pitturazione e sabbiatura");
+    labels=labels.concat("Pitturazione e sabbiatura 2");
+    labels=labels.concat("Impianti ed edizilizia");
+    labels=labels.concat("Trasporto materiali e rifiuti");
 }
 
 function setPhotoByIndex(index){
     var photoContainer=$("#cover");
-
-    // photoContainer.fadeTo("slow", 0.1,function(){
-        photoContainer.css("background-image",photos[index]);
-    // });
-    // photoContainer.fadeTo(1000, 0.6);
+    photoContainer.css("background-image",photos[index]);
     selectDotByIndex(index);
 }
 
@@ -43,6 +48,15 @@ function selectDotByIndex(index){
         dots.children()[i].classList.remove("selected");
     };
     dots.children()[index].classList.add("selected");
+    var sliderLabel=$("#slider_label");
+    sliderLabel.fadeTo(500,0,
+        function(){
+            sliderLabel.fadeTo(500,1);
+            sliderLabel.html(labels[index]);
+        }
+    );
+
+
 }
 
 function setSliderInterval(index) {
@@ -60,5 +74,6 @@ function clickDot(index){
     selectDotByIndex(index);
     setPhotoByIndex(index);
     index++;
+    index = index % photos.length;
     setSliderInterval(index);
 }

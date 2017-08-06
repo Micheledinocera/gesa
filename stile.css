@@ -30,6 +30,10 @@ a:hover {color: #1af3a4;}
      position: relative;
 }
 
+#slider_label{
+    font-size: xx-large;
+}
+
 /*HEADER*/
 .logo {height:100%; width:100%;}
 .header {background: rgba(255, 255, 255, 0.5); height: 120px;}

@@ -108,7 +108,28 @@ a:hover {color: #1af3a4;}
 .banner__image__autorizzazioni {border: 1px solid red; width: 180px; height: 180px; margin: 10px; display: inline-block;}
 
 /*FOOTER*/
-.footer {background: #333; padding: 30px; color: #fff; margin-top: 40px;}
+.footer {background: #333; color: #fff; margin-top: 40px;}
+.copyright_container{height:100px; background: black;}
+.copyright{
+    display:block;
+    text-align: center;
+    padding: 10px;
+    line-height: 150%;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+}
+#googleMap{
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 300px;
+    background-image: url(resources/mappaPezzotta.PNG);
+}.location_container{
+     display: inline-flex;
+ }
 
 /*SINGLE*/
 .single {}

@@ -13,7 +13,7 @@ a {color: #16dd94;}
 a:hover {color: #1af3a4;}
 .middle_page_divider{
     margin: 40px 0 10px 0;
-    height: 700px;
+    height: 70%;
     text-align: center;
     background-image: url(resources/PhotoSlider/PhotoSlider-1.jpg);
     background-position: center center;

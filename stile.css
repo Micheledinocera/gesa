@@ -76,7 +76,22 @@ a:hover {color: #1af3a4;}
 .cover__filter {background: #000; width: 100%; height: 100%; position: absolute; z-index: -2; opacity: 0.3;}
 .cover__caption {display: table; height: 100%; width: 100%; position: relative; z-index: -1; padding: 0 20px;}
 .cover__caption__copy {display: table-cell; vertical-align: middle; text-align: center; color: #fff;}
-#dots-container {margin-top:50px;}
+
+#dots-dots-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#dots-container {
+    position: relative;
+    text-align: center;
+    top:65%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 20px;
+}
 
 .dot{
     cursor: pointer;

@@ -49,9 +49,9 @@ function selectDotByIndex(index){
     };
     dots.children()[index].classList.add("selected");
     var sliderLabel=$("#slider_label");
-    sliderLabel.fadeTo(500,0,
+    sliderLabel.fadeTo(250,0,
         function(){
-            sliderLabel.fadeTo(500,1);
+            sliderLabel.fadeTo(250,1);
             sliderLabel.html(labels[index]);
         }
     );

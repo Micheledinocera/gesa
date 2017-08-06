@@ -21,10 +21,10 @@ function startSlider() {
 
 function retrievePhotosFromDir(){
     var folder = "resources/PhotoSlider/";
-    photos=photos.concat("url("+folder+"PhotoSlider-1.jpg");
-    photos=photos.concat("url("+folder+"PhotoSlider-2.jpg");
-    photos=photos.concat("url("+folder+"PhotoSlider-3.jpg");
-    photos=photos.concat("url("+folder+"PhotoSlider-4.jpg");
+    photos=photos.concat("url("+folder+"Pitturazione.jpg");
+    photos=photos.concat("url("+folder+"Sabbiatura.jpg");
+    photos=photos.concat("url("+folder+"Impianti.jpg");
+    photos=photos.concat("url("+folder+"Rifiuti.jpg");
 }
 
 function setPhotoByIndex(index){

@@ -37,11 +37,11 @@ a:hover {color: #1af3a4;}
 /*HEADER*/
 .logo {height:100%; width:100%;}
 .header {background: rgba(255, 255, 255, 0.5); height: 120px;}
-.header__logo {color: #fff; float: left; display: block; padding: 3px 20px; width:250px; margin: 5px 5px; border: solid 1px red;}
+.header__logo {float: left; display: block; padding: 3px 20px; width:250px; margin-top: -8px; border: solid 1px red;}
 /*DARIO*/
 .header__logo__dario {color: #fff; float: left; display: block; padding-top: 5px;width:8%;}
-.logo__dario{height:45px; width:90px; margin-left: 10px;}
-.header__dario{height:58px;background-color: #000186; position: fixed;top: 0px;width: 100%; width:100%;}
+.logo__dario{height:55px; width:90px; margin-left: 30px; margin-top: -3px;}
+.header__dario{height:58px;background-color: #000186; position: fixed;top: 0px;width: 100%; width:100%; z-index: 2000;}
 .header__menu__dario{float: right; margin: 0; padding: 0; color: #fff;}
 .header__menu__item__dario {display: inline-block; text-align: center; height: 58px; margin: auto; float: right;}
 .header__menu__item__dario a {color: white; display: block; padding: 0 10px; font-weight: 800;top: 50%; transform: translateY(-50%); position: relative;}

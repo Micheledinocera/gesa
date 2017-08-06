@@ -11,6 +11,24 @@ a {text-decoration: none;}
 p {line-height: 22px;}
 a {color: #16dd94;}
 a:hover {color: #1af3a4;}
+.middle_page_divider{
+    margin: 40px 0 10px 0;
+    height: 700px;
+    text-align: center;
+    background-image: url(resources/PhotoSlider/PhotoSlider-1.jpg);
+    background-position: center center;
+    position: relative;
+    opacity: 0.8;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.middle_page_divider_content{
+     top: 50%;
+     transform: translateY(-50%);
+     position: relative;
+}
 
 /*HEADER*/
 .logo {height:100%; width:100%;}
@@ -76,7 +94,6 @@ a:hover {color: #1af3a4;}
 /*BANNER*/
 .banner {background: #fff; height: 50%; margin-top: 40px;}
 .banner__image {width: 30%; float: left; height: 100%;
-  background-image: image(C:\Users\color\Desktop\Project\gesa\resources\Gesa-logo-4.png);
   background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;

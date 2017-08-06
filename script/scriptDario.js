@@ -16,6 +16,8 @@ function menuShower() {
 
             menu.addClass("animate");
             menuListMin.append(children);
+            menuListMin.children().removeClass("header__menu__item");
+            menuListMin.children().addClass("header__menu__item__dario");
 
             menu.addClass("header__dario");
             menu.removeClass("header__darioHide");
@@ -34,6 +36,8 @@ function menuShower() {
             logo.stop(true,true);
 
             menuListMin.css({'opacity':'0'});
+            menuList.children().removeClass("header__menu__item__dario");
+            menuList.children().addClass("header__menu__item");
             menuListMin.stop(true,true);
         }
     });

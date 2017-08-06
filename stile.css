@@ -43,13 +43,18 @@ a:hover {color: #1af3a4;}
 .logo__dario{height:45px; width:90px; margin-left: 10px;}
 .header__dario{height:58px;background-color: #000186; position: fixed;top: 0px;width: 100%; width:100%;}
 .header__menu__dario{float: right; margin: 0; padding: 0; color: #fff;}
+.header__menu__item__dario {display: inline-block; text-align: center; height: 58px; margin: auto; float: right;}
+.header__menu__item__dario a {color: white; display: block; padding: 0 10px; font-weight: 800;top: 50%; transform: translateY(-50%); position: relative;}
+.header__menu__item__dario a:hover {color: #000186;}
+.header__menu__item__dario:hover {background: #ffffff;}
 .header__darioHide{height: 0px;}
+
 /* FINE DARIO*/
 .header__menu__container {border: solid 1px lime; width: 80%; height: 100px; float: right;}
 .header__menu {float: right; margin: 0; width: 65%; height: 100%; padding: 30px;}
 .header__menu__item {display: inline-block; text-align: center; height: 58px; margin: auto; float: right;}
 .header__menu__item a {color: #000186; display: block; padding: 0 10px; font-weight: 800;top: 50%; transform: translateY(-50%); position: relative;}
-.header__menu__item a:hover {color: #fff; display: block; padding: 0 10px; font-weight: 800;top: 50%; transform: translateY(-50%); position: relative;}
+.header__menu__item a:hover {color: white;}
 .header__menu__item:hover {background: rgba(0, 1, 134, 0.55);}
 .header__icon-bar {display: block; float: right; padding: 15px; display: none;}
 .header__icon-bar span {display: block; height: 3px; width: 30px; background: #000186; margin-bottom: 5px;}

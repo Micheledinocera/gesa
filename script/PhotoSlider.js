@@ -30,10 +30,10 @@ function retrievePhotosFromDir(){
 }
 
 function retrieveLabels() {
-    labels=labels.concat("Pitturazione e sabbiatura");
-    labels=labels.concat("Pitturazione e sabbiatura 2");
-    labels=labels.concat("Impianti ed edizilizia");
-    labels=labels.concat("Trasporto materiali e rifiuti");
+    labels=labels.concat("Un passo di rinnovamento è un passo di bellezza");
+    labels=labels.concat("La nostra professonalità per le vostre esigenze");
+    labels=labels.concat("La sicurezza è il pilastro di ogni nostro lavoro");
+    labels=labels.concat("Grandi mezzi per grandi opere");
 }
 
 function setPhotoByIndex(index){

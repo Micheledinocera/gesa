@@ -49,8 +49,13 @@ regolamenti che necessitano.</p>
 <div id="footer_container"></div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/scriptDario.js"></script>
 <script>
     $(document).ready(function() {
+        $(".header__icon-bar").click(function(e) {
+            $(".header__menu").toggleClass("is-open");
+            e.preventDefault();
+        });
         $('#header_container').load('header.html');
         $('#footer_container').load('footer.html');
     });

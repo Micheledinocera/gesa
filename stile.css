@@ -121,12 +121,14 @@ a:hover {color: #1af3a4;}
 
 /*BANNER*/
 .banner {background: #fff; height: 50%; margin-top: 40px;}
-.banner__image {width: 30%; float: left; height: 100%;
-  background-size: cover;
+.banner__image {width: 30%; float: left; height: 100%; background-image: url("resources/Gesa-logo-4.png");
+  background-repeat: no-repeat;
+    background-size: 100%;
   -o-background-size: cover;
   -moz-background-size: cover;
   background-position: center center;
 }
+.logo__banner {background-image: url("resources/Gesa-logo-4.png");background-size: 150px 150px;}
 .banner__copy {width: 70%; float: left; height: 100%; display: table;}
 .banner__copy__text {display: table-cell; vertical-align: middle; padding: 30px;}
 .banner__copy__text h3 {font-size: 36px; margin-bottom: 0;}

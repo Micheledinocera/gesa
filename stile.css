@@ -59,6 +59,7 @@ a:hover {color: #1af3a4;}
 .header__menu__item a {color: #ffffff; display: block; padding: 0 10px; font-weight: 800;top: 50%; transform: translateY(-50%); position: relative;}
 .header__menu__item a:hover {color: #000186;}
 .header__menu__item:hover {background: rgb(255, 255, 255);}
+.header__menu__item:hover a{color: #000186;}
 .header__icon-bar {display: block; float: right; padding: 15px; display: none;}
 .header__icon-bar span {display: block; height: 3px; width: 30px; background: #ffffff; margin-bottom: 5px;}
 

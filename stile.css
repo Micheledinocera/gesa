@@ -142,7 +142,7 @@ a:hover {color: #1af3a4;}
 .banner__copy__text h3 {font-size: 36px; margin-bottom: 0;}
 .banner__copy__text h4 {font-size: 22px; margin: 5px 0;}
 .banner__autorizzazioni {background: #fff; height: auto; margin-top: 40px; padding: 10px; text-align: center;}
-.banner__image__autorizzazioni {width: 10%; margin: 10px; display: inline-block;}
+.banner__image__autorizzazioni {width: 150px; margin: 10px; display: inline-block;}
 .banner__testo__centrato {height:100px; width: 300px; margin: 10px 10px;}
 
 /*FOOTER*/
@@ -347,7 +347,7 @@ a:hover {color: #1af3a4;}
 }
 
 /*SMARTPHONE 2*/
-@media (max-width: 415px) {
+@media (max-width: 412px) {
     .header__logo {width: 60%; margin-top: 1px;}
     #header_container {height: 1px;}
     .header__dario {display: none;}
@@ -362,7 +362,7 @@ a:hover {color: #1af3a4;}
     .card {width: 90%; margin: 5%;}
 
     /*banner*/
-    .banner {height: 70%;}
+    .banner {height: 78%;}
     .banner__image {width: 100%; height: 40%;}
     .banner__copy {width: 100%; height: 50%;}
 
@@ -401,14 +401,14 @@ a:hover {color: #1af3a4;}
     /*cards*/
     .card {width: 90%; margin: 5%;}
     /*banner*/
-    .banner {height: 70%;}
-    .banner__image {width: 100%; height: 32%;}
+    .banner {height: 92%;}
+    .banner__image {width: 100%; height: 38%;}
     .banner__copy {width: 100%; height: 50%;}
 }
 
 /*SMARTPHONE 4*/
 @media (max-width: 320px) {
-    .header__logo {width: 60%; margin-top: 1px;}
+    .header__logo {width: 60%; margin-top: 10px;}
     #header_container {height: 1px;}
     .header__dario {display: none;}
     .header {position: fixed; width: 320px; background: #000186;}
@@ -421,7 +421,7 @@ a:hover {color: #1af3a4;}
     /*cards*/
     .card {width: 90%; margin: 5%;}
     /*banner*/
-    .banner {height: 70%;}
+    .banner {height: 95%;}
     .banner__image {width: 100%; height: 26%;}
     .banner__copy {width: 100%; height: 50%;}
 

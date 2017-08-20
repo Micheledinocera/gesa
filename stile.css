@@ -1,6 +1,8 @@
 html,body {height: 100%;}
 body {background: #d7d6d6; font-family: helvetica;}
 a {text-decoration: none;}
+.testi { text-align: justify;
+    text-justify: inter-word;}
 
 /*GENERAL*/
 .animate {
@@ -21,54 +23,53 @@ a:hover {color: #1af3a4;}
     opacity: 0.8;
     background-size: cover;
     -o-background-size: cover;
-    -moz-background-size: cover;
-}
-
+    -moz-background-size: cover;}
 .middle_page_divider_content{
      top: 50%;
      transform: translateY(-50%);
      position: relative;
     z-index: 1900;
+    color: #ffffff;
 }
-
 #slider_label{
-    font-size: xx-large;
-}
+    font-size: xx-large;}
+
+.intestazione__servizi {background: #fff; height: auto; margin-top: 40px; padding: 10px; text-align: center;}
+.intestazione__partner {background: #fff; height: auto; margin-top: 0; padding: 10px; text-align: center;}
 
 /*HEADER*/
 .logo {height:100%; width:100%;}
-.header {background: rgba(255, 255, 255, 0.5); height: 120px;}
+.header {background: rgb(0, 1, 134); height: 120px; z-index: 3000;}
 .header__logo {float: left; display: block; padding: 3px 20px; width:250px; margin-top: -8px;}
 /*DARIO*/
 .header__logo__dario {color: #fff; float: left; display: block; padding-top: 5px;width:8%;}
 .logo__dario{height:70px; width:120px; margin-left: 30px; margin-top: -11px;}
-.header__dario{height:58px;background-color: #000186; position: fixed;top: 0px;width: 100%; width:100%; z-index: 2000;}
+.header__dario{height:58px;background-color: #000186; position: fixed;top: 0px; width: 100%; z-index: 2000;}
 .header__menu__dario{float: right; margin: 0; padding: 0; color: #fff;}
 .header__menu__item__dario {display: inline-block; text-align: center; height: 58px; margin: auto; float: right;}
 .header__menu__item__dario a {color: white; display: block; padding: 0 10px; font-weight: 800;top: 50%; transform: translateY(-50%); position: relative;}
 .header__menu__item__dario a:hover {color: #000186;}
 .header__menu__item__dario:hover {background: #ffffff;}
 .header__darioHide{height: 0px;}
-
 /* FINE DARIO*/
+
 .header__menu__container {width: 80%; height: 100px; float: right;}
 .header__menu {float: right; margin: 0; width: 65%; height: 100%; padding: 30px;}
 .header__menu__item {display: inline-block; text-align: center; height: 58px; margin: auto; float: right;}
-.header__menu__item a {color: #000186; display: block; padding: 0 10px; font-weight: 800;top: 50%; transform: translateY(-50%); position: relative;}
-.header__menu__item a:hover {color: white;}
-.header__menu__item:hover {background: rgba(0, 1, 134, 0.55);}
+.header__menu__item a {color: #ffffff; display: block; padding: 0 10px; font-weight: 800;top: 50%; transform: translateY(-50%); position: relative;}
+.header__menu__item a:hover {color: #000186;}
+.header__menu__item:hover {background: rgb(255, 255, 255);}
 .header__icon-bar {display: block; float: right; padding: 15px; display: none;}
-.header__icon-bar span {display: block; height: 3px; width: 30px; background: #000186; margin-bottom: 5px;}
+.header__icon-bar span {display: block; height: 3px; width: 30px; background: #ffffff; margin-bottom: 5px;}
 
 /*COVER*/
 .cover {
-    height: 100%;
+    height: 70%;
     background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
     background-position: center center;
     position: relative;
-    margin-top: -120px;
     opacity: 0.8;
     z-index: -2;
     transition: background-image 0.5s ease;
@@ -81,6 +82,7 @@ a:hover {color: #1af3a4;}
     position: absolute;
     width: 100%;
     height: 100%;
+    z-index: 100;
 }
 
 #dots-container {
@@ -114,10 +116,11 @@ a:hover {color: #1af3a4;}
 
 /*CARDS*/
 .cards {max-width: 1200px; margin: 40px auto;}
-.card {width: 30%; margin: 0 1.5%;background: #fff; float: left;}
+.card {width: 30%; margin: 0 1.5%;background: #fff; float: left; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s; border-radius: 5px;}
 .card__image {width: 100%; height: auto;}
 .card__copy {padding: 5px 20px;}
 .card__copy h3 {margin-bottom: 0;}
+
 
 /*BANNER*/
 .banner {background: #fff; height: 50%; margin-top: 40px;}
@@ -126,40 +129,169 @@ a:hover {color: #1af3a4;}
     background-size: 100%;
   -o-background-size: cover;
   -moz-background-size: cover;
-  background-position: center center;
-}
+  background-position: center center;}
 .logo__banner {background-image: url("resources/Gesa-logo-4.png");background-size: 150px 150px;}
 .banner__copy {width: 70%; float: left; height: 100%; display: table;}
 .banner__copy__text {display: table-cell; vertical-align: middle; padding: 30px;}
 .banner__copy__text h3 {font-size: 36px; margin-bottom: 0;}
 .banner__copy__text h4 {font-size: 22px; margin: 5px 0;}
-
 .banner__autorizzazioni {background: #fff; height: auto; margin-top: 40px; padding: 10px; text-align: center;}
 .banner__image__autorizzazioni {width: 10%; margin: 10px; display: inline-block;}
+.banner__testo__centrato {height:100px; width: 300px; margin: 10px 10px;}
 
 /*FOOTER*/
-.footer {background: #333; color: #fff; margin-top: 40px;}
-.copyright_container{height:100px; background: black;}
-.copyright{
-    display:block;
-    text-align: center;
-    padding: 10px;
-    line-height: 150%;
-    top: 50%;
-    transform: translateY(-50%);
-    position: relative;
+.footer-distributed{
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+
+    padding: 55px 50px;
+    margin-top: 80px;
 }
-#googleMap{
-    background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-position: center center;
-    height: 300px;
-    width: 300px;
-    background-image: url(resources/mappaPezzotta.PNG);
-}.location_container{
-     display: inline-flex;
- }
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+    width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+    color:  #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+
+.footer-distributed h3 span{
+    color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+    color:  #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+    color:  #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+    width: 35%;
+}
+
+.footer-distributed .footer-center i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin:0;
+}
+
+.footer-distributed .footer-center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+    color:  #5383d3;
+    text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+    width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.footer-distributed .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+    .footer-distributed{
+        font: bold 14px sans-serif;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i{
+        margin-left: 0;
+    }
+
+}
+
+.logo2 {width: 40%;}
+
+/*FOOTER SCARICATO FINE*/
+
 
 /*SINGLE*/
 .single {}
@@ -174,24 +306,110 @@ a:hover {color: #1af3a4;}
 }
 
 /*SMARTPHONE*/
-/*@media (max-width: 767px)*/
 @media (max-width: 850px) {
     #header_container {height: 1px;}
- .header__dario {display: none;}
-.header {position: fixed; width: 100%;background:grey;}
-.header__icon-bar {display: block;}
-.header__menu__item {display: block; vertical-align: middle; text-align: left; width: 100%;}
-.header__menu { background:grey; width: 100%; height: 0px;overflow: hidden;  padding: 0;}
-.is-open {height: 360px; overflow: hidden;  padding: 30px 30px;}
-/*cover*/
-.cover { height: 100%;}
-/*cards*/
-.card {width: 90%; margin: 5%;}
-/*banner*/
-.banner {height: 100%;}
-.banner__image,
-.banner__copy {width: 100%; height: 50%;}
+    .header__dario {display: none;}
+    .header {position: fixed; width: 100%;background: #000186;}
+    .header__icon-bar {display: block;}
+    .header__menu__item {display: block; vertical-align: middle; text-align: left; width: 100%;}
+    .header__menu { background: #000186; width: 100%; height: 0px;overflow: hidden;  padding: 0;}
+    .is-open {height: 300px; overflow: hidden;}
+    /*cover*/
+    .cover { height: 100%;}
+    /*cards*/
+    .card {width: 90%; margin: 5%;}
+    /*banner*/
+    .banner {height: 100%;}
+    .banner__image,
+    .banner__copy {width: 100%; height: 50%;}
+    .middle_page_divider_content{
+        top: 50%;
+        transform: translateY(-50%);
+        position: relative;
+        z-index: 1900;
+        color: #ffffff;}
+    .intestazione__partner {background: #fff; height: auto; margin-top: 0px; padding: 10px; text-align: center;}
+
+
 }
+
+/*SMARTPHONE 2*/
+@media (max-width: 415px) {
+    #header_container {height: 1px;}
+    .header__dario {display: none;}
+    .header {position: fixed; width: 412px; background: #000186;}
+    .header__icon-bar {display: block;}
+    .header__menu__item {display: block; vertical-align: middle; text-align: left; width: 100%;}
+    .header__menu { background: #000186; width: 100%; height: 0px;overflow: hidden;  padding: 0;}
+    .is-open {height: 300px; overflow: hidden;}
+    /*cover*/
+    .cover { height: 100%;}
+    /*cards*/
+    .card {width: 90%; margin: 5%;}
+    /*banner*/
+    .banner {height: 100%;}
+    .banner__image,
+    .banner__copy {width: 100%; height: 50%;}
+    .middle_page_divider{
+        margin: 40px 0 10px 0;
+        height: 60%;
+        text-align: center;
+        background-image: url(resources/PhotoSlider/PhotoSlider-1.jpg);
+        background-position: center center;
+        position: relative;
+        opacity: 0.8;
+        background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;}
+    .middle_page_divider_content{
+        top: 50%;
+        transform: translateY(-50%);
+        position: relative;
+        z-index: 1900;
+        color: #ffffff;}
+    .intestazione__partner {background: #fff; height: auto; margin-top: 0px; padding: 10px; text-align: center;}
+}
+
+/*SMARTPHONE 3*/
+@media (max-width: 360px) {
+    #header_container {height: 1px;}
+    .header__dario {display: none;}
+    .header {position: fixed; width: 360px; background: #000186;}
+    .header__icon-bar {display: block;}
+    .header__menu__item {display: block; vertical-align: middle; text-align: left; width: 100%;}
+    .header__menu { background: #000186; width: 100%; height: 0px;overflow: hidden;  padding: 0;}
+    .is-open {height: 300px; overflow: hidden;}
+    /*cover*/
+    .cover { height: 100%;}
+    /*cards*/
+    .card {width: 90%; margin: 5%;}
+    /*banner*/
+    .banner {height: 100%;}
+    .banner__image,
+    .banner__copy {width: 100%; height: 50%;}
+
+}
+
+/*SMARTPHONE 4*/
+@media (max-width: 320px) {
+    #header_container {height: 1px;}
+    .header__dario {display: none;}
+    .header {position: fixed; width: 320px; background: #000186;}
+    .header__icon-bar {display: block;}
+    .header__menu__item {display: block; vertical-align: middle; text-align: left; width: 100%;}
+    .header__menu { background: #000186; width: 100%; height: 0px;overflow: hidden;  padding: 0;}
+    .is-open {height: 300px; overflow: hidden;}
+    /*cover*/
+    .cover { height: 100%;}
+    /*cards*/
+    .card {width: 90%; margin: 5%;}
+    /*banner*/
+    .banner {height: 100%;}
+    .banner__image,
+    .banner__copy {width: 100%; height: 50%;}
+
+}
+
 
 .clearfix:after {
   visibility: hidden;

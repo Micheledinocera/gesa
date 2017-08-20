@@ -42,7 +42,12 @@ a:hover {color: #1af3a4;}
 .header {background: rgb(0, 1, 134); height: 120px; z-index: 3000;}
 .header__logo {float: left; display: block; padding: 3px 20px; width:250px; margin-top: -8px;}
 /*DARIO*/
-.header__logo__dario {color: #fff; float: left; display: block; padding-top: 5px;width:8%;}
+.header__logo__dario {
+    color: #fff;
+    float: left;
+    display: block;
+    padding-top: 5px;
+    width:8%;}
 .logo__dario{height:70px; width:120px; margin-left: 30px; margin-top: -11px;}
 .header__dario{height:58px;background-color: #000186; position: fixed;top: 0px; width: 100%; z-index: 2000;}
 .header__menu__dario{float: right; margin: 0; padding: 0; color: #fff;}
@@ -309,6 +314,11 @@ a:hover {color: #1af3a4;}
 /*SMARTPHONE*/
 @media (max-width: 850px) {
     #header_container {height: 1px;}
+    .header__logo{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
     .header__dario {display: none;}
     .header {position: fixed; width: 100%;background: #000186;}
     .header__icon-bar {display: block;}

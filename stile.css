@@ -329,10 +329,12 @@ a:hover {color: #1af3a4;}
     .cover { height: 100%;}
     /*cards*/
     .card {width: 90%; margin: 5%;}
+
     /*banner*/
     .banner {height: 100%;}
-    .banner__image,
+    .banner__image {width: 100%; height: 50%;}
     .banner__copy {width: 100%; height: 50%;}
+
     .middle_page_divider_content{
         top: 50%;
         transform: translateY(-50%);
@@ -346,6 +348,7 @@ a:hover {color: #1af3a4;}
 
 /*SMARTPHONE 2*/
 @media (max-width: 415px) {
+    .header__logo {width: 60%; margin-top: 1px;}
     #header_container {height: 1px;}
     .header__dario {display: none;}
     .header {position: fixed; width: 412px; background: #000186;}
@@ -357,10 +360,12 @@ a:hover {color: #1af3a4;}
     .cover { height: 100%;}
     /*cards*/
     .card {width: 90%; margin: 5%;}
+
     /*banner*/
-    .banner {height: 100%;}
-    .banner__image,
+    .banner {height: 70%;}
+    .banner__image {width: 100%; height: 40%;}
     .banner__copy {width: 100%; height: 50%;}
+
     .middle_page_divider{
         margin: 40px 0 10px 0;
         height: 60%;
@@ -383,6 +388,7 @@ a:hover {color: #1af3a4;}
 
 /*SMARTPHONE 3*/
 @media (max-width: 360px) {
+    .header__logo {width: 60%; margin-top: 1px;}
     #header_container {height: 1px;}
     .header__dario {display: none;}
     .header {position: fixed; width: 360px; background: #000186;}
@@ -395,14 +401,14 @@ a:hover {color: #1af3a4;}
     /*cards*/
     .card {width: 90%; margin: 5%;}
     /*banner*/
-    .banner {height: 100%;}
-    .banner__image,
+    .banner {height: 70%;}
+    .banner__image {width: 100%; height: 32%;}
     .banner__copy {width: 100%; height: 50%;}
-
 }
 
 /*SMARTPHONE 4*/
 @media (max-width: 320px) {
+    .header__logo {width: 60%; margin-top: 1px;}
     #header_container {height: 1px;}
     .header__dario {display: none;}
     .header {position: fixed; width: 320px; background: #000186;}
@@ -415,8 +421,8 @@ a:hover {color: #1af3a4;}
     /*cards*/
     .card {width: 90%; margin: 5%;}
     /*banner*/
-    .banner {height: 100%;}
-    .banner__image,
+    .banner {height: 70%;}
+    .banner__image {width: 100%; height: 26%;}
     .banner__copy {width: 100%; height: 50%;}
 
 }

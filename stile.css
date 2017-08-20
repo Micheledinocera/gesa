@@ -362,7 +362,7 @@ a:hover {color: #1af3a4;}
     .card {width: 90%; margin: 5%;}
 
     /*banner*/
-    .banner {height: 78%;}
+    .banner {height: 100%;}
     .banner__image {width: 100%; height: 40%;}
     .banner__copy {width: 100%; height: 50%;}
 
@@ -401,7 +401,7 @@ a:hover {color: #1af3a4;}
     /*cards*/
     .card {width: 90%; margin: 5%;}
     /*banner*/
-    .banner {height: 92%;}
+    .banner {height: 100%;}
     .banner__image {width: 100%; height: 38%;}
     .banner__copy {width: 100%; height: 50%;}
 }
@@ -421,7 +421,7 @@ a:hover {color: #1af3a4;}
     /*cards*/
     .card {width: 90%; margin: 5%;}
     /*banner*/
-    .banner {height: 95%;}
+    .banner {height: 100%;}
     .banner__image {width: 100%; height: 26%;}
     .banner__copy {width: 100%; height: 50%;}
 

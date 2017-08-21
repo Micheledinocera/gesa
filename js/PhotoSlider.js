@@ -4,10 +4,12 @@
 var sliderInterval;
 var photos=[];
 var labels=[];
+var preloadPhotos=[];
 
 function startSlider() {
     var dots=$("#dots-container");
     retrievePhotosFromDir(photos);
+    preload(preloadPhotos);
 
     for(var i=0;i<photos.length;i++){
         var dot=document.createElement("div");
@@ -20,13 +22,28 @@ function startSlider() {
     return photos;
 }
 
+function preload() {
+    $(preloadPhotos).each(function(){
+        $('<img />').attr('src',this).appendTo('body').css('display','none');
+    });
+}
+
 function retrievePhotosFromDir(){
     var folder = "resources/PhotoSlider/";
-    photos=photos.concat("url("+folder+"Pitturazione.jpg");
-    photos=photos.concat("url("+folder+"Sabbiatura.jpg");
-    photos=photos.concat("url("+folder+"Impianti.jpg");
-    photos=photos.concat("url("+folder+"Rifiuti.jpg");
+    photos=photos.concat("url("+folder+"Pitturazione.jpg)");
+    photos=photos.concat("url("+folder+"Sabbiatura.jpg)");
+    photos=photos.concat("url("+folder+"Impianti.jpg)");
+    photos=photos.concat("url("+folder+"Rifiuti.jpg)");
+    retrievePhotoForPreload();
     retrieveLabels();
+}
+
+function retrievePhotoForPreload() {
+    var folder = "resources/PhotoSlider/";
+    preloadPhotos=preloadPhotos.concat(folder+"Pitturazione.jpg");
+    preloadPhotos=preloadPhotos.concat(folder+"Sabbiatura.jpg");
+    preloadPhotos=preloadPhotos.concat(folder+"Impianti.jpg");
+    preloadPhotos=preloadPhotos.concat(folder+"Rifiuti.jpg");
 }
 
 function retrieveLabels() {

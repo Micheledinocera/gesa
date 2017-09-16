@@ -107,9 +107,20 @@
 <section class="banner__autorizzazioni clearfix">
 	<div class="banner__image__certificazioni"><img class="logo" src="resources/img%20certificazioni/ministero.png"></div>
 	<div class="banner__image__certificazioni"><img class="logo" src="resources/img%20certificazioni/albo.png"></div>
-	<div class="banner__image__certificazioni"><img class="logo" src="resources/img%20certificazioni/iso-9001.png"></div>
-	<div class="banner__image__certificazioni"><img class="logo" src="resources/img%20certificazioni/iso-14001.png"></div>
+	<div class="banner__image__certificazioni clickable"><img class="logo" src="resources/img%20certificazioni/iso-9001.png"></div>
+	<div class="banner__image__certificazioni clickable"><img class="logo" src="resources/img%20certificazioni/iso-14001.png"></div>
+	<div class="banner__image__certificazioni clickable"><img class="logo" src="resources/img%20certificazioni/iso18001.png"></div>
 </section>
+
+<!--Modal-->
+<div id="myModal" class="modal">
+	<div id="caption">
+		<button>ita</button>
+		<button>eng</button>
+	</div>
+	<span class="close">&times;</span>
+	<iframe id="img01" class="modal-content" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html"></iframe>
+</div>
 
 <!-- FOOTER -->
 <div id="footer_container"></div>
@@ -117,6 +128,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="js/scriptDario.js"></script>
 <script src="js/PhotoSlider.js"></script>
+<script src="js/Modal.js"></script>
 <script>
 	var photos=[];
 	var currentPosition=0;

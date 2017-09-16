@@ -33,7 +33,7 @@ function retrievePhotosFromDir(){
     photos=photos.concat("url("+folder+"Pitturazione.jpg)");
     photos=photos.concat("url("+folder+"Sabbiatura.jpg)");
     photos=photos.concat("url("+folder+"Impianti.jpg)");
-    photos=photos.concat("url("+folder+"Rifiuti.jpg)");
+    photos=photos.concat("url("+folder+"Gru_60_T.jpeg)");
     retrievePhotoForPreload();
     retrieveLabels();
 }

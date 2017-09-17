@@ -67,6 +67,7 @@ a:hover {color: #1af3a4;}
 .header__menu__item__dario {display: inline-block; text-align: center; height: 58px; margin: auto; float: right;}
 .header__menu__item__dario a {color: white; display: block; padding: 0 10px; font-weight: 800;top: 50%; transform: translateY(-50%); position: relative;}
 .header__menu__item__dario a:hover {color: #000186;}
+.header__menu__item__dario:hover a{color: #000186;}
 .header__menu__item__dario:hover {background: #ffffff;}
 .header__darioHide{height: 0px;}
 /* FINE DARIO*/

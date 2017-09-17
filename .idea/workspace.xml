@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d83c0800-bd8a-4f82-bb15-0109e935ffa3" name="Default" comment="modificato il footer - risolto alcuni problemi responsive">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/PhotoSlider/Gru_60_T.jpeg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/PhotoSlider/Rifiuti.jpg" afterPath="$PROJECT_DIR$/resources/PhotoSlider/Gru_60_T.jpg" />
+    <list default="true" id="d83c0800-bd8a-4f82-bb15-0109e935ffa3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/PhotoSlider.js" afterPath="$PROJECT_DIR$/js/PhotoSlider.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stile.css" afterPath="$PROJECT_DIR$/stile.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,8 +40,8 @@
       <file leaf-file-name="stile.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stile.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="501">
+              <caret line="69" column="26" lean-forward="false" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -391,7 +387,7 @@
       <workItem from="1505666782900" duration="78000" />
       <workItem from="1505666903833" duration="874000" />
       <workItem from="1505667800433" duration="91000" />
-      <workItem from="1505667948011" duration="937000" />
+      <workItem from="1505667948011" duration="1203000" />
     </task>
     <task id="LOCAL-00001" summary="aggiunti i testi delle card, rotto un po di roba">
       <created>1501347301852</created>
@@ -561,11 +557,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505667536322</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="mod tasti ita/eng">
+      <created>1505668923269</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1505668923269</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110371000" />
+    <option name="totallyTimeSpent" value="110637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -636,7 +639,8 @@
     <MESSAGE value="asdasd" />
     <MESSAGE value="modificato il footer - risolto alcuni problemi responsive" />
     <MESSAGE value="sostituita foto gru" />
-    <option name="LAST_COMMIT_MESSAGE" value="sostituita foto gru" />
+    <MESSAGE value="mod tasti ita/eng" />
+    <option name="LAST_COMMIT_MESSAGE" value="mod tasti ita/eng" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -845,8 +849,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stile.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="501">
+          <caret line="69" column="26" lean-forward="false" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
           <folding />
         </state>
       </provider>

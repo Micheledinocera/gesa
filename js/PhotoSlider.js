@@ -33,7 +33,7 @@ function retrievePhotosFromDir(){
     photos=photos.concat("url("+folder+"Pitturazione.jpg)");
     photos=photos.concat("url("+folder+"Sabbiatura.jpg)");
     photos=photos.concat("url("+folder+"Impianti.jpg)");
-    photos=photos.concat("url("+folder+"Gru_60_T.jpeg)");
+    photos=photos.concat("url("+folder+"Gru_60_T.jpg)");
     retrievePhotoForPreload();
     retrieveLabels();
 }
@@ -43,7 +43,7 @@ function retrievePhotoForPreload() {
     preloadPhotos=preloadPhotos.concat(folder+"Pitturazione.jpg");
     preloadPhotos=preloadPhotos.concat(folder+"Sabbiatura.jpg");
     preloadPhotos=preloadPhotos.concat(folder+"Impianti.jpg");
-    preloadPhotos=preloadPhotos.concat(folder+"Rifiuti.jpg");
+    preloadPhotos=preloadPhotos.concat(folder+"Gru_60_T.jpg");
 }
 
 function retrieveLabels() {

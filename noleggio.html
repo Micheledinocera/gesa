@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>GESA S.R.L.</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+	<link rel="stylesheet" href="stile.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<!-- HEADER -->
+<div id="header_container"></div>
+
+<!-- COVER -->
+<section class="cover" style="background-image: url(resources/PhotoSlider/Gru_60_T.jpg);">
+	<div class="cover__filter"></div>
+	<div class="cover__caption">
+		<div class="cover__caption__copy">
+			<h1>TRASPORTO MATERIALI E RIFIUTI</h1>
+		</div>
+	</div>
+</section>
+
+<article class="single">
+	<div class="single__copy">
+		<h1>Attrezzature per attività di G.E.S.A. S.R.L.</h1>
+		<p class="testi">
+		- Impianto sabbiatura mobile con sabbiatrici Vespa 120 lt complete di   spingarda e ugello<br>
+		- Impianti di verniciatura mobili a 2 e 4 postazioni<br>
+		- Filtri abbattimento polveri<br>
+		- Filtri a carbone attivo<br>
+		- Centrali ad aria compressa Atlas Copco GA37 e GA160<br>
+		- Motocompressore Holman 750-170S<br>
+		- Idropulitrice Falch alta pressione (3000 bar)<br>
+		- Idropulitrice Mig alta pressione (400 bar)<br>
+		- Stazione lavaggio alta pressione Ptc (400 bar)<br>
+		- Container mobili uso officina, uso magazzino, porta attrezzatura<br>
+		- Container stoccaggio temporaneo fusti di vernice e fusti solvente<br>
+		- Cestelli per lavori in quota<br>
+		- Ragni mobili con cestelli per lavori in quota<br>
+		- Scissors Elevator elettrico (piattaforma verticale), per lavorazioni in quota<br>
+		- Smerigliatrici ad aria Chicago Pneumatic<br>
+		- Spillatrici ad aghi<br>
+		- Pompe Airles Graco<br>
+		- Surbona Elephant (aspirazione sabbia/polvere)<br>
+		</p>
+
+
+		<h1>Parco automezzi e attrezzature varie</h1>
+
+		<p class="testi">- Autocarri scarrabili da 35 quintali a 700 quintali<br>
+		- Cisterne scarrabili autocaricanti e non da mc 2 a mc 10<br>
+		- Cassoni scarrabili completamenti ermetici e non da mc 1,5 a mc 30<br>
+		- Cassoni scarrabili con ragno auto caricanti<br>
+		- Carrelli elevatori elettrici e non da 1 a 6 tonnellate fino a 7 metri di elevazione frontali e laterali<br>
+		- Caricatori a ragno con magnete<br>
+		- Compattatori scarrabili<br>
+		- Autogru semovente da 20,25,35,40,60 tonnellate<br>
+		- Autocarro con gru da 15 tonnellate<br>
+		- Escavatori cingolati con benna/ martello demolitore/ cesoia  per taglio ferro<br>
+		- Motospazzatrice<br>
+		- Generatore corrente 200 Kw<br>
+		- Taglio al plasma<br>
+		- Pacco bombole ossigeno/ acetilene<br>
+		- Saldatrici basiche/ TIG<br>
+		</p>
+	</div>
+</article>
+
+
+<!-- FOOTER -->
+<div id="footer_container"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/scriptDario.js"></script>
+<script>
+    $(document).ready(function() {
+        $(".header__icon-bar").click(function(e) {
+            $(".header__menu").toggleClass("is-open");
+            e.preventDefault();
+        });
+        $('#header_container').load('header.html');
+        $('#footer_container').load('footer.html');
+    });
+</script>
+</body>
+</html>

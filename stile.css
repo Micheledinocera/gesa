@@ -52,6 +52,7 @@ a:hover {color: #1af3a4;}
 
 /*HEADER*/
 .logo {height:100%; width:100%;}
+.logo3 {height:80%; width:80%;}
 .header {background: rgb(0, 1, 134); height: 120px; z-index: 3000;}
 .header__logo {float: left; display: block; padding: 3px 20px; width:250px; margin-top: -8px;}
 /*DARIO*/

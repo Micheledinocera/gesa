@@ -32,8 +32,9 @@ function retrievePhotosFromDir(){
     var folder = "resources/PhotoSlider/";
     photos=photos.concat("url("+folder+"Pitturazione.jpg)");
     photos=photos.concat("url("+folder+"Sabbiatura.jpg)");
-    photos=photos.concat("url("+folder+"Impianti.jpg)");
+    photos=photos.concat("url("+folder+"Ponteggio.jpg)");
     photos=photos.concat("url("+folder+"Gru_60_T.jpg)");
+    photos=photos.concat("url("+folder+"Lavorazione.jpg)");
     retrievePhotoForPreload();
     retrieveLabels();
 }
@@ -42,8 +43,9 @@ function retrievePhotoForPreload() {
     var folder = "resources/PhotoSlider/";
     preloadPhotos=preloadPhotos.concat(folder+"Pitturazione.jpg");
     preloadPhotos=preloadPhotos.concat(folder+"Sabbiatura.jpg");
-    preloadPhotos=preloadPhotos.concat(folder+"Impianti.jpg");
+    preloadPhotos=preloadPhotos.concat(folder+"Ponteggio.jpg");
     preloadPhotos=preloadPhotos.concat(folder+"Gru_60_T.jpg");
+    preloadPhotos=preloadPhotos.concat(folder+"Lavorazione.jpg");
 }
 
 function retrieveLabels() {
@@ -51,6 +53,7 @@ function retrieveLabels() {
     labels=labels.concat("La nostra professonalità per le vostre esigenze");
     labels=labels.concat("La sicurezza è il pilastro di ogni nostro lavoro");
     labels=labels.concat("Grandi mezzi per grandi opere");
+    labels=labels.concat("Collaborazione per ogni grande lavorazione");
 }
 
 function setPhotoByIndex(index){

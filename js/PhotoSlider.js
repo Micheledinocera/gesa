@@ -35,6 +35,9 @@ function retrievePhotosFromDir(){
     photos=photos.concat("url("+folder+"Ponteggio.jpg)");
     photos=photos.concat("url("+folder+"Gru_60_T.jpg)");
     photos=photos.concat("url("+folder+"Lavorazione.jpg)");
+    photos=photos.concat("url("+folder+"PhotoSlider-2.jpg");
+    photos=photos.concat("url("+folder+"PhotoSlider-3.jpg");
+    photos=photos.concat("url("+folder+"PhotoSlider-4.jpg");
     retrievePhotoForPreload();
     retrieveLabels();
 }
@@ -46,6 +49,9 @@ function retrievePhotoForPreload() {
     preloadPhotos=preloadPhotos.concat(folder+"Ponteggio.jpg");
     preloadPhotos=preloadPhotos.concat(folder+"Gru_60_T.jpg");
     preloadPhotos=preloadPhotos.concat(folder+"Lavorazione.jpg");
+    preloadPhotos=preloadPhotos.concat(folder+"PhotoSlider-2.jpg");
+    preloadPhotos=preloadPhotos.concat(folder+"PhotoSlider-3.jpg");
+    preloadPhotos=preloadPhotos.concat(folder+"PhotoSlider-4.jpg");
 }
 
 function retrieveLabels() {
@@ -54,6 +60,9 @@ function retrieveLabels() {
     labels=labels.concat("La sicurezza è il pilastro di ogni nostro lavoro");
     labels=labels.concat("Grandi mezzi per grandi opere");
     labels=labels.concat("Collaborazione per ogni grande lavorazione");
+    labels=labels.concat("Per le nostre attrezzature scegliamo solo qualitá");
+    labels=labels.concat("Soliditá ed esperienza al vostro servizio");
+    labels=labels.concat("Puntiamo solo in alto per il nostro futuro");
 }
 
 function setPhotoByIndex(index){
